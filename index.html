@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div class="mainhead">
+        <h1>
+            Image gallery
+        </h1>
+    </div>
+    <div class="gallery">
+        <div class="categories">
+            <button class="filter-button" data-filter="all">All</button>
+            <button class="filter-button" data-filter="nature">Nature</button>
+            <button class="filter-button" data-filter="architecture">Architecture</button>
+        
+        </div>
+        <div class="images">
+            <div class="image nature">
+                <img src="images/nature1.png" alt="Nature 1">
+            </div>
+            <div class="image nature">
+                <img src="images/nature2.png" alt="Nature 2">
+            </div>
+            <div class="image nature">
+                <img src="images/nature3.png" alt="Nature 3">
+            </div>
+            <div class="image nature">
+                <img src="images/nature4.png" alt="Nature 4">
+            </div>
+            <div class="image architecture">
+                <img src="images/archi.png" alt="Architecture 1">
+            </div>
+            <div class="image architecture">
+                <img src="images/archi1.png" alt="Architecture 2">
+            </div>
+            <div class="image architecture">
+                <img src="images/archi2.png" alt="Architecture 3">
+            </div>
+            <div class="image architecture">
+                <img src="images/archi3.png" alt="Architecture 4">
+            </div>
+        
+        </div>
+    </div>
+
+    <div id="lightbox">
+        <span class="close-button">&times;</span>
+        <img class="lightbox-image" src="" alt="Lightbox Image">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
